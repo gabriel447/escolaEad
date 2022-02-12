@@ -13,6 +13,9 @@
 
 <body>
     <!-- colocar aqui os conteudos de estudo e logo das marcas -->
+    <div class="fundo">
+        <img src="img/estude2.jpg">
+    </div>
 </body>
 
 </html>
