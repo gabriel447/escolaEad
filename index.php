@@ -8,14 +8,11 @@
     <title>site</title>
 </head>
 
-<header>
-    <?php include('menu.php'); ?>
-</header>
+<!-- header -->
+<?php include('menu.php'); ?>
 
 <body>
-
+    <!-- colocar aqui os conteudos de estudo e logo das marcas -->
 </body>
-
-<link rel="stylesheet" href="css/estilo.css">
 
 </html>

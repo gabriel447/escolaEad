@@ -4,3 +4,31 @@
 	box-sizing: border-box;
 	font-family: "Open Sans";
 }
+
+/* nav */
+
+.menu {
+	background-color: grey;
+	padding: 15px;
+}
+
+.menu ul,img {
+	display: inline-block;
+}
+
+.menu ul {
+	float: right;
+}
+
+.menu li{
+	padding: 3px;
+	list-style-type: none;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+	font-family: Georgia;
+}
+
+
