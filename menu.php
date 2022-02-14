@@ -1,7 +1,7 @@
 <header>
     <div class="menu">
         <nav>
-            <img id="logo" src="img/logo.png">
+            <img id="logo" src="img/logo.png" width="350" height="60">
             <ul>
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="assinatura.php">Comprar</a></li>

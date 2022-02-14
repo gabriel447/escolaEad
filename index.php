@@ -13,9 +13,27 @@
 
 <body>
     <!-- colocar aqui os conteudos de estudo e logo das marcas -->
-    <div class="fundo">
-        <img src="img/estude1.png">
+    <div wm-slider>
+        <p>
+            <img src="img/foto1.png"
+            width="513" height="342"
+            >
+        </p>
+        <p>
+            <img src="img/foto2.png"
+            width="513" height="342"
+            >
+        </p>
     </div>
 </body>
+
+<style>
+p {
+    position: absolute;
+    display: block;
+}
+</style>
+
+<script src="../js/script.js"></script>
 
 </html>
