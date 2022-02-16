@@ -13,15 +13,20 @@
 
 <body>
     <!-- colocar aqui os conteudos de estudo e logo das marcas -->
-    <div wm-slider>
+    <div>
         <p>
-            <img src="img/foto1.png"
-            width="513" height="342"
+            <img src="img/foto1.jpg"
+            width="1226" height="612"
             >
         </p>
         <p>
-            <img src="img/foto2.png"
-            width="513" height="342"
+            <img src="img/foto2.jpg"
+            width="1226" height="612"
+            >
+        </p>
+        <p>
+            <img src="img/foto3.jpg"
+            width="1226" height="612"
             >
         </p>
     </div>
