@@ -1,12 +1,16 @@
-<div>
-    <form method="" action="">
-        <input type="text" name="usuario" placeholder="usuario"><br/>
-        <input type="password" name="senha" placeholder="senha"><br/>
-        <input type="checkbox" name="lembrar">lembrar
-        <button name="login" type="submit" value="">logar</button>
-    </form>
-</div>
-
-<a href="index.php">voltar</a>
+<div class="box-login">
+		<h2>Efetue o login:</h2>
+		<form method="post">
+			<input type="text" name="user" placeholder="Login.." required>
+			<input type="password" name="password" placeholder="Senha.." required>
+			<div class="logar">
+				<input type="submit" name="acao" value="Logar">
+			</div>
+			<div>
+				<label>Lembrar-me</label>
+				<input type="checkbox" name="lembrar" />
+			</div>
+		</form>
+	</div><!--box-login-->
 
 <link rel="stylesheet" href="css/estilo.css">
