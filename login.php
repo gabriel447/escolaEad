@@ -1,3 +1,5 @@
+<body style="background: rgb(215, 220, 250);">
+
 <div class="box-login">
 		<h2>Efetue o login:</h2>
 		<form method="post">
@@ -12,5 +14,5 @@
 			</div>
 		</form>
 	</div><!--box-login-->
-
+</body>
 <link rel="stylesheet" href="css/estilo.css">

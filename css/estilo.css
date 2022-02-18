@@ -5,11 +5,8 @@
 	font-family: "Open Sans";
 }
 
-
-
 html,body{
 	height: 100%;
-	background: rgba(250, 235, 215);
 }
 
 body{
@@ -20,7 +17,7 @@ body{
 
 .menu {
 	box-shadow: inset 0px -27px 40px -20px rgba(255, 255, 255, 0.75);
-	background-color: rgb(126, 125, 128);
+	background-color: rgb(114, 114, 114);
 	padding: 15px;
 }
 
@@ -82,7 +79,7 @@ body{
 	cursor: pointer;
 	margin-top: 10px;
 	font-size: 14px;
-	background: #B22222;
+	background: darkcyan;
 	color: white;
 	border: 0;
 }
@@ -96,4 +93,30 @@ div.lembrete {
 	text-align: center;
 	padding: 40px;
 	font-size: 16px;
+}
+
+/* center */
+
+/* .box-center p {
+    position: absolute;
+    display: block;
+} */
+
+/* icons */
+
+.box-icon {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+}
+
+.circle {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
 }

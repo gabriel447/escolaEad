@@ -13,31 +13,59 @@
 
 <body>
     <!-- colocar aqui os conteudos de estudo e logo das marcas -->
-    <div>
+    <div class="box-center">
         <p>
-            <img src="img/foto1.jpg"
-            width="1226" height="612"
-            >
-        </p>
-        <p>
-            <img src="img/foto2.jpg"
-            width="1226" height="612"
-            >
-        </p>
-        <p>
+            <!-- criar aqui sistema de slide com js -->
             <img src="img/foto3.jpg"
-            width="1226" height="612"
+            width="100%" height="100%"
             >
         </p>
     </div>
+
+    <div class="box-icon">
+        <div>
+            <div class="circle">
+                <img class="icon" src="img/icon1.png">
+            </div>
+            <a>suporte personalizado</a>
+        </div>
+        <div>
+            <div class="circle">
+                <img class="icon" src="img/icon2.png">
+            </div>
+            <a>metodologia eficiente</a>
+        </div>
+        <div>
+            <div class="circle">
+                <img class="icon" src="img/icon3.png">
+            </div>
+            <a>preço acessível</a>
+        </div>
+    </div>
+
+    <div class="box-icon">
+        <div>
+            <div class="circle">
+                <img class="icon" src="img/icon4.png">
+            </div>
+            <a>didática exclusiva</a>
+        </div>
+        <div>
+            <div class="circle">
+                <img class="icon" src="img/icon5.png">
+            </div>
+            <a>garantia de 30 dias</a>
+        </div>
+        <div>
+            <div class="circle">
+                <img class="icon" src="img/icon6.png">
+            </div>
+            <a>acesso vitalício</a>
+        </div>
+    </div>
 </body>
 
-<style>
-p {
-    position: absolute;
-    display: block;
-}
-</style>
+<link rel="stylesheet" href="css/estilo.css">
 
 <script src="../js/script.js"></script>
 
