@@ -2,15 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Open Sans";
-}
-
-html,body{
-	height: 100%;
+	font-family: Verdana, sans-serif;
 }
 
 body{
 	overflow-x: hidden;
+	background-color: beige;
 }
 
 /* nav */
@@ -21,13 +18,13 @@ body{
 	padding: 15px;
 }
 
-.menu ul,img {
+ .menu ul,img {
 	display: inline-block;
 }
 
 .menu ul {
 	float: right;
-}
+} 
 
 .menu li{
 	padding: 3px;
@@ -41,6 +38,161 @@ body{
 	font-size: 17px;
 }
 
+/* fade imgs do centro */
+
+.slides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* icons */
+
+.box-icon {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.box-content {
+	width: 300px;
+	height: 150px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 5px rgb(200,200,200);
+	background-color: white;
+}
+
+.box-content a {
+	display: flex;
+	justify-content: center;
+}
+
+/* oportunidade*/
+
+.oportunidade {
+	background-color: white;
+	height: 300px;
+}
+.oportunidade h3 {
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	font-family: Tahoma;
+}
+
+.oportunidade input[type=submit]{
+	width: 140px;
+	height: 40px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 14px;
+	background: tomato;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+}
+
+div.cadastrar {
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* biografia do professor */
+
+.bio {
+	background-color: white;
+}
+
+.toten img {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    box-sizing: content-box;
+    padding: 60px;
+}
+
+.toten {
+    display: flex;
+    flex-direction: row;
+}
+
+.toten a {
+    padding: 60px
+}
+
+.toten h5 {
+    padding: 60px;
+}
+
+/* rodapé */
+
+.rodape {
+	padding: 100px;
+	box-shadow: inset -20px 50px 50px -30px rgba(255, 255, 255, 0.75);
+	background-color: rgb(114, 114, 114);
+}
+
+.rodape div {
+	display:flex; 
+	flex-direction: "column";
+}
+
+.rodape ul {
+	float: left;
+}
+
+.rodape li {
+	list-style-type: none;
+}
+
+.rodape a {
+	color: white;
+	font-size: 17px;
+}
+
+#direitos {
+	padding-top: 80px;
+	color: white;
+}
+
+/* pagina de login */
+
 .box-login{
 	box-shadow: 10px 10px 5px rgb(200,200,200);
 	max-width: 600px;
@@ -52,6 +204,7 @@ body{
 	top: 50%;
 	transform: translate(-50%,-50%);
 	-ms-transform:translate(-50%,-50%);
+	border-radius: 10px;
 }
 
 .box-login h2{
@@ -71,6 +224,7 @@ body{
 	border: 1px solid #ccc;
 	padding-left: 8px;
 	margin-top:8px;
+	border-radius: 10px;
 }
 
 .box-login input[type=submit]{
@@ -79,9 +233,10 @@ body{
 	cursor: pointer;
 	margin-top: 10px;
 	font-size: 14px;
-	background: darkcyan;
+	background: tomato;
 	color: white;
 	border: 0;
+	border-radius: 10px;
 }
 
 div.logar {
@@ -95,28 +250,67 @@ div.lembrete {
 	font-size: 16px;
 }
 
-/* center */
-
-/* .box-center p {
-    position: absolute;
-    display: block;
-} */
-
-/* icons */
-
-.box-icon {
-	display: flex;
-	justify-content: space-around;
-	padding: 50px;
+#back {
+	padding: 5px;
+	text-decoration: none;
 }
 
-.icon {
-	width: 25px;
-	height: 25px;
+/* formulario de cadastro */
+
+.box-cadastro{
+	box-shadow: 10px 10px 5px rgb(200,200,200);
+	max-width: 600px;
+	width: 95%;
+	padding: 60px 2%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	border-radius: 10px;
 }
 
-.circle {
-	display: flex;
-	justify-content: center;
-	padding: 40px;
+.box-cadastro h2{
+	text-align: center;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin:10px 0;
+	color: black;
 }
+
+.box-cadastro input[type=text],
+.box-cadastro input[type=password]
+{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	margin-top:8px;
+	border-radius: 10px;
+}
+
+.box-cadastro input[type=submit]{
+	width: 140px;
+	height: 40px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 14px;
+	background: tomato;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+}
+
+div.cadastrar {
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+

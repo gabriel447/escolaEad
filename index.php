@@ -13,60 +13,98 @@
 
 <body>
     <!-- colocar aqui os conteudos de estudo e logo das marcas -->
-    <div class="box-center">
-        <p>
-            <!-- criar aqui sistema de slide com js -->
-            <img src="img/foto3.jpg"
-            width="100%" height="100%"
-            >
-        </p>
+    <div class="slideshow-container">
+        <div class="slides fade">
+            <img src="img/foto1.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <img src="img/foto2.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <img src="img/foto3.jpg" style="width:100%">
+        </div>
     </div>
 
+    <section class="oportunidade">
+        <h3> CADASTRE-SE AGORA E GANHE AS PRIMEIRAS AULAS GRATUITAS</h3>
+        <div class="cadastrar">
+        <form action="cadastro.php">
+            <input type="submit" value="Cadastrar">
+        </form>
+        </div>
+    </section>
+
     <div class="box-icon">
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon1.png">
             </div>
             <a>suporte personalizado</a>
         </div>
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon2.png">
             </div>
-            <a>metodologia eficiente</a>
+            <a>certificação</a>
         </div>
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon3.png">
             </div>
-            <a>preço acessível</a>
+            <a>preços acessíveis</a>
         </div>
     </div>
 
     <div class="box-icon">
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon4.png">
             </div>
-            <a>didática exclusiva</a>
+            <a>exercícios de fixação</a>
         </div>
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon5.png">
             </div>
-            <a>garantia de 30 dias</a>
+            <a>30 dias de garantia</a>
         </div>
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon6.png">
             </div>
-            <a>acesso vitalício</a>
+            <a>plano vitalício</a>
         </div>
     </div>
+
+    <section class="bio">
+    <div class="toten">
+        <img src="./img/bg.png">
+    </div>
+    <div class="toten">
+        <h5>Nome do Professor</h5>
+        <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate asperiores quam vitae iure, cumque voluptates voluptate odit harum ipsa vel nihil reiciendis quas facere eos dignissimos voluptas architecto itaque.</a>
+    </div>
+    
+    </section>
+
 </body>
 
+<footer>
+    <div class="rodape">
+    <div>
+        <ul>
+            <li><a>Pagamento Seguro</a></li>
+            <li><a>Site Seguro</a></li>
+            <li><a>Cartão de Crédito</a></li>
+        </ul>
+    </div>
+    <div id="direitos">
+        <p>Todos os Direitos Reservados</a>
+    </div>
+</footer>
+    
 <link rel="stylesheet" href="css/estilo.css">
 
-<script src="../js/script.js"></script>
+<script src="./js/script.js"></script>
 
 </html>
