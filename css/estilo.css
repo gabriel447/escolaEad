@@ -341,3 +341,12 @@ div.cadastrar {
 	text-align: center;
 	padding-top: 20px;
 }
+
+/* end */
+
+.end {
+	background-color: rgb(43, 42, 42);
+	text-align: center;
+	padding: 20px;
+	color: white;
+}

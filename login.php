@@ -5,8 +5,8 @@
 <div class="box-login">
 		<h2>Efetue o login:</h2>
 		<form method="post" action="./pages/home.php">
-			<input type="text" name="user" placeholder="E-mail.." required>
-			<input type="password" name="password" placeholder="Senha.." required>
+			<input type="text" name="user" placeholder="E-mail" required>
+			<input type="password" name="password" placeholder="Senha" required>
 			<div class="logar">
 				<input type="submit" name="acao" value="Logar">
 			</div>

@@ -86,9 +86,6 @@
     </div>
     </section>
 
-</body>
-
-<footer>
     <div class="rodape">
 
         <div class="box-rodape">
@@ -113,6 +110,11 @@
             </div>
         </div>
     </div>
+
+</body>
+
+<footer>
+    <div class="end"><a>Todos os Direitos Reservados.</a></div>
 </footer>
     
 <link rel="stylesheet" href="css/estilo.css">

@@ -2,11 +2,11 @@
 <nav>
     <div class="menu">
         <div>
-            <img id="logo" src="img/logo.png" width="300" height="60">
+        <a href="index.php"><img id="logo" src="img/logo.png" width="300" height="60"></a>
         </div>
         <div class="intro">
-			<input href="login.php" type="submit" name="acao" value="Logar">
-			<input href="cadastro.php" type="submit" name="acao" value="Cadastrar">
+			<a href="login.php"><input type="submit" name="acao" value="Logar"></a>
+			<a href="cadastro.php"><input type="submit" name="acao" value="Cadastrar"></a>
         </div>
     </div>
 </nav>
