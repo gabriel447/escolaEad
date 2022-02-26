@@ -97,16 +97,18 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores laudantium et, culpa sapiente voluptatum ex, voluptate architecto laboriosam sequi temporibus ullam veritatis eaque ut optio atque, expedita repudiandae nam.</p>
             </div>
             <div class="dev">
-                <p>Desenvolvido por <a href="www.instagram.com.br/@gabeecwb">@gabeecwb</a></p>
+                <p>Desenvolvido por <a href="https://www.instagram.com/coffee4code/" target="blank">@coffee4code</a></p>
             </div>
         </div>
 
         <div class="box-rodape">
             <div class="contato">
                 <h4>Entre em Contato:</h4>
-                <p>Email: Gabriel_447@live.com</p>
-                <p>Whatsapp: +5541997587405</p>
-                <p>Segunda a Sexta: 09:00 as 18:00</p>
+                <p><img class="icon" src="img/gmail.png"> Email: Gabriel_447@live.com</p>
+                <br>
+                <p><img class="icon" src="img/whatsapp.png"> Whatsapp: +5541997587405</p>
+                <br>
+                <p><img class="icon" src="img/horario.png"> Segunda a Sexta: das 09:00 as 18:00</p>
                 <br>
             </div>
         </div>
