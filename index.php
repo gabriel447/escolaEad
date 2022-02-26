@@ -13,60 +13,108 @@
 
 <body>
     <!-- colocar aqui os conteudos de estudo e logo das marcas -->
-    <div class="box-center">
-        <p>
-            <!-- criar aqui sistema de slide com js -->
-            <img src="img/foto3.jpg"
-            width="100%" height="100%"
-            >
-        </p>
+    <div class="slideshow-container">
+        <div class="slides fade">
+            <img src="img/foto1.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <img src="img/foto2.jpg" style="width:100%">
+        </div>
+        <div class="slides fade">
+            <img src="img/foto3.jpg" style="width:100%">
+        </div>
     </div>
 
+    <section class="oportunidade">
+        <h3> CADASTRE-SE AGORA E GANHE AS PRIMEIRAS AULAS GRATUITAS</h3>
+        <div class="cadastrar">
+        <form action="cadastro.php">
+            <input type="submit" value="Cadastrar">
+        </form>
+        </div>
+    </section>
+
     <div class="box-icon">
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon1.png">
             </div>
             <a>suporte personalizado</a>
         </div>
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon2.png">
             </div>
-            <a>metodologia eficiente</a>
+            <a>certificação</a>
         </div>
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon3.png">
             </div>
-            <a>preço acessível</a>
+            <a>preços acessíveis</a>
         </div>
     </div>
 
     <div class="box-icon">
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon4.png">
             </div>
-            <a>didática exclusiva</a>
+            <a>exercícios de fixação</a>
         </div>
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon5.png">
             </div>
-            <a>garantia de 30 dias</a>
+            <a>30 dias de garantia</a>
         </div>
-        <div>
-            <div class="circle">
+        <div class="box-content">
+            <div class="content">
                 <img class="icon" src="img/icon6.png">
             </div>
             <a>acesso vitalício</a>
         </div>
     </div>
+
+    <section class="bio">
+    <div class="foto">
+        <img src="./img/professor.jfif">
+    </div>
+    <div class="desc">
+        <h4>Nome do Professor</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cupiditate asperiores quam vitae iure, cumque voluptates voluptate odit harum ipsa vel nihil reiciendis quas facere eos dignissimos voluptas architecto itaque.</p>
+    </div>
+    </section>
+
 </body>
 
+<footer>
+    <div class="rodape">
+
+        <div class="box-rodape">
+            <div class="sobre">
+                <h4>Sobre a Empresa:</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores laudantium et, culpa sapiente voluptatum ex, voluptate architecto laboriosam sequi temporibus ullam veritatis eaque ut optio atque, expedita repudiandae nam.</p>
+            </div>
+            <div class="dev">
+                <p>Desenvolvido por <a href="www.instagram.com.br/@gabeecwb">@gabeecwb</a></p>
+            </div>
+        </div>
+
+        <div class="box-rodape">
+            <div class="contato">
+                <h4>Entre em Contato:</h4>
+                <p>Email: Gabriel_447@live.com</p>
+                <p>Whatsapp: +5541997587405</p>
+                <p>Segunda a Sexta: 09:00 as 18:00</p>
+                <br>
+            </div>
+        </div>
+    </div>
+</footer>
+    
 <link rel="stylesheet" href="css/estilo.css">
 
-<script src="../js/script.js"></script>
+<script src="./js/script.js"></script>
 
 </html>

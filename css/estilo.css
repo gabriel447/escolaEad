@@ -2,15 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Open Sans";
-}
-
-html,body{
-	height: 100%;
+	font-family: Verdana, sans-serif;
 }
 
 body{
 	overflow-x: hidden;
+	background-color: beige;
 }
 
 /* nav */
@@ -19,27 +16,216 @@ body{
 	box-shadow: inset 0px -27px 40px -20px rgba(255, 255, 255, 0.75);
 	background-color: rgb(114, 114, 114);
 	padding: 15px;
+	display: flex;
+	justify-content: space-between;
 }
 
-.menu ul,img {
-	display: inline-block;
-}
-
-.menu ul {
-	float: right;
-}
-
-.menu li{
-	padding: 3px;
-	list-style-type: none;
-}
-
-.menu a{
+.intro input[type=submit]{
+	width: 140px;
+	height: 40px;
+	cursor: pointer;
+	margin: 10px;
+	font-size: 14px;
+	background: rgb(92, 92, 92);
 	color: white;
-	text-decoration: none;
-	font-family: Georgia;
+	border: 0;
+	border-radius: 20px;
+}
+
+.intro input:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
+/* fade imgs do centro */
+
+.slides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* icons */
+
+.box-icon {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.box-content {
+	width: 300px;
+	height: 150px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 5px rgb(200,200,200);
+	background-color: white;
+}
+
+.box-content a {
+	display: flex;
+	justify-content: center;
+}
+
+/* oportunidade*/
+
+.oportunidade {
+	background-color: white;
+	height: 300px;
+}
+.oportunidade h3 {
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	font-family: Tahoma;
+	padding-bottom: 30px;
+}
+
+.oportunidade input[type=submit]{
+	width: 140px;
+	height: 40px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 14px;
+	background: tomato;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+	
+}
+
+.oportunidade input:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
+div.cadastrar {
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* biografia do professor */
+
+.bio {
+	background-color: white;
+	display: flex;
+	height: 300px;
+}
+
+.foto img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    padding: 60px;
+}
+
+.foto img:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
+.desc {
+	padding-top: 100px;
+}
+
+.desc h4 {
+	padding-bottom: 20px;
+}
+
+.desc p {
+	padding-right: 100px;
+}
+
+/* rodapé */
+
+.rodape {
+	padding-top: 60px;
+	padding-left: 40px;
+	box-shadow: inset -20px 50px 50px -30px rgba(255, 255, 255, 0.75);
+	background-color: rgb(114, 114, 114);
+	display: flex;
+}
+
+.box-rodape {
+	display: flex;
+	flex-direction: column;
+}
+
+.sobre h4 {
+	color: white;
+}
+
+.sobre p {
+	padding-right: 400px;
+	padding-top: 40px;
+	color: white;
 	font-size: 17px;
 }
+
+.dev {
+	padding-top: 40px;
+	color: white;
+}
+
+.dev a {
+	text-decoration: none;
+	color: beige;
+	font-weight: bold;
+}
+
+.contato {
+	padding-right: 40px;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.contato h4 {
+	padding-bottom: 20px;
+}
+
+.contato p {
+	padding-top: 20px;
+	padding-right: 40px;
+	font-size: 14px;
+}
+
+/* pagina de login */
 
 .box-login{
 	box-shadow: 10px 10px 5px rgb(200,200,200);
@@ -52,6 +238,7 @@ body{
 	top: 50%;
 	transform: translate(-50%,-50%);
 	-ms-transform:translate(-50%,-50%);
+	border-radius: 10px;
 }
 
 .box-login h2{
@@ -71,6 +258,7 @@ body{
 	border: 1px solid #ccc;
 	padding-left: 8px;
 	margin-top:8px;
+	border-radius: 10px;
 }
 
 .box-login input[type=submit]{
@@ -79,9 +267,10 @@ body{
 	cursor: pointer;
 	margin-top: 10px;
 	font-size: 14px;
-	background: darkcyan;
+	background: tomato;
 	color: white;
 	border: 0;
+	border-radius: 10px;
 }
 
 div.logar {
@@ -95,28 +284,60 @@ div.lembrete {
 	font-size: 16px;
 }
 
-/* center */
-
-/* .box-center p {
-    position: absolute;
-    display: block;
-} */
-
-/* icons */
-
-.box-icon {
-	display: flex;
-	justify-content: space-around;
-	padding: 50px;
+#back {
+	padding: 5px;
+	text-decoration: none;
 }
 
-.icon {
-	width: 25px;
-	height: 25px;
+/* formulario de cadastro */
+
+.box-cadastro{
+	box-shadow: 10px 10px 5px rgb(200,200,200);
+	max-width: 600px;
+	width: 95%;
+	padding: 60px 2%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	border-radius: 10px;
 }
 
-.circle {
-	display: flex;
-	justify-content: center;
-	padding: 40px;
+.box-cadastro h2{
+	text-align: center;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin:10px 0;
+	color: black;
+}
+
+.box-cadastro input[type=text],
+.box-cadastro input[type=password]
+{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	margin-top:8px;
+	border-radius: 10px;
+}
+
+.box-cadastro input[type=submit]{
+	width: 140px;
+	height: 40px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 14px;
+	background: tomato;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+}
+
+div.cadastrar {
+	text-align: center;
+	padding-top: 20px;
 }
