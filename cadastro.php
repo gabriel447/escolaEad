@@ -3,6 +3,7 @@
 
 <body style="background-color: beige;">
 
+<!--box-cadastro-->
 <div class="box-cadastro">
 		<h2>Efetue o cadastro:</h2>
 		<form method="post" action="">
@@ -14,5 +15,7 @@
 				<input type="submit" name="acao" value="Cadastrar">
 			</div>
 		</form>
-	</div><!--box-cadastro-->
+</div>
+<!--box-cadastro-->
+
 </body>

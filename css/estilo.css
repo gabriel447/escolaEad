@@ -342,6 +342,35 @@ div.cadastrar {
 	padding-top: 20px;
 }
 
+/* menu */
+
+.home {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+#sidebar {
+    padding-top: 20px;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: tomato;
+}
+
+#sidebar ul li {
+    padding: 20px 24px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    list-style: none;
+}
+
 /* end */
 
 .end {

@@ -15,3 +15,4 @@ function showSlides() {
 
   setTimeout(showSlides, 5000); //escolha quantos segundos de transição
 }
+

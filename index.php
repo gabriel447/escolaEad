@@ -51,7 +51,7 @@
             <div class="content">
                 <img class="icon" src="img/icon3.png">
             </div>
-            <a>preços acessíveis</a>
+            <a>preço acessível</a>
         </div>
     </div>
 
@@ -66,13 +66,13 @@
             <div class="content">
                 <img class="icon" src="img/icon5.png">
             </div>
-            <a>30 dias de garantia</a>
+            <a>garantia</a>
         </div>
         <div class="box-content">
             <div class="content">
                 <img class="icon" src="img/icon6.png">
             </div>
-            <a>acesso vitalício</a>
+            <a>acesso vitalício </a>
         </div>
     </div>
 
@@ -101,7 +101,7 @@
         <div class="box-rodape">
             <div class="contato">
                 <h4>Entre em Contato:</h4>
-                <p><img class="icon" src="img/gmail.png"> Email: Gabriel_447@live.com</p>
+                <p><img class="icon" src="img/gmail.png"> Email: fullstackgabe@gmail.com</p>
                 <br>
                 <p><img class="icon" src="img/whatsapp.png"> Whatsapp: +5541997587405</p>
                 <br>

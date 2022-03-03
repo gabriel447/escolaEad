@@ -1,3 +1,11 @@
-<h1>Seja Bem-Vindo Aluno</h1>
+<nav>
+    <?php
+    include('menu.php');
+    ?>
+</nav>
 
-<?php include('menu.php')?>
+<div class="home">
+    <a>
+        <p>Bem Vindo Aluno</p>
+    </a>
+</div>
