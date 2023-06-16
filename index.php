@@ -117,7 +117,7 @@
     <div class="end"><a>Todos os Direitos Reservados.</a></div>
 </footer>
     
-<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="./css/estilo.css">
 
 <script src="./js/script.js"></script>
 
